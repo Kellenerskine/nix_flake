@@ -1,0 +1,3 @@
+im just making a test file to test and see if my git profile is set
+up properly on nixos. i suspect it isnt and only allows for public repos
+to be edited without the personal fine grained key :(
