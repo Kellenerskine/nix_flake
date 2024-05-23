@@ -4,7 +4,7 @@
 
 let
   setUsername = "relz";
-  setHostname = "relz_personal";
+  setHostname = "relz_flake";
 in {
   # No Change Needed Below
   username = "${setUsername}";

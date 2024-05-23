@@ -21,7 +21,7 @@
   outputs = inputs@{ nixpkgs, home-manager, impermanence, ... }:
   let
     system = "x86_64-linux";
-    host = "relz_nixos";
+    host = "relz_flake";
     inherit (import ./hosts/${host}/options.nix) username hostname;
 
     pkgs = import nixpkgs {
